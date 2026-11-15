@@ -1,6 +1,4 @@
 // grid de horários disponíveis
-import { Label } from "@/components/ui/label"
-import { Button } from "@/components/ui/button"
 
 export interface TimeSlotGridProps {
   selected: string;

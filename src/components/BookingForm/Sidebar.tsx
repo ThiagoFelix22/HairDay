@@ -5,7 +5,6 @@
   import { useState } from "react"
   import { SquareUserRound } from 'lucide-react';
   import { useAppointments } from "@/hooks/useAppointments"
-  import hairday from "../../../public/logo-_yWQDxWv.svg"
   export default function Sidebar() {
     const [selectedTime, setSelectedTime] = useState("")
     const [clienteName, setClienteName] = useState("")
